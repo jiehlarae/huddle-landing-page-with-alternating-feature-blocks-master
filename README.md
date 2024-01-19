@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/jiehlarae/huddle-landing-page-with-alternating-feature-blocks-master.git]
+- Live Site URL: [https://jiehlarae.github.io/huddle-landing-page-with-alternating-feature-blocks-master/]
 
 ## My process
 
