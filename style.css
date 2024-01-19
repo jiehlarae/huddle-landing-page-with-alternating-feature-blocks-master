@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo-img img {
+    width: 104px;
+}
+
+.section-1 {
+    background: center/cover url(./images/bg-hero-mobile.svg) #EDFBFF;
+}
+
+h1,
+.section-2 h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-1 p {
+    font-size: 1rem;
+}
+
+.try-btn {
+    font-size: 0.625rem;
+    font-weight: 700;
+}
+
+.free-btn {
+    background-color: #FF52C1;
+    font-size: 0.75rem;
+    font-family: Open Sans;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+.section-2 h2 {
+    font-size: 1.25rem;
+}
+
+.section-2 p {
+    color: #808E9A;
+    font-size: 0.875rem;
+}
+
+.ready-box h2{
+    font-size: 1.125rem;
+}
+
+.get-btn {
+    background-color: #FF52C1;
+    font-size: 0.625rem;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #00252E;
+    margin-top: -5rem;
+    padding-top: 8rem;
+    font-size: 0.875rem;
+}
+
+footer > .logo-img > img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1%) hue-rotate(105deg) brightness(103%) contrast(101%);
+}
+
+.bi {
+    width: 100px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1%) hue-rotate(105deg) brightness(103%) contrast(101%); 
+    font-size: 1.5rem;
+}
+
+.social-icon {
+    text-decoration: none;
+}
+
+footer p:last-of-type {
+    font-size: 0.69563rem;
+}
+
+@media (min-width: 992px) {
+    h1 { 
+        font-size: 2.5rem;
+    }
+    .section-1 p {
+        font-size: 1.125rem;
+    }
+
+    .section-2 p {
+        font-size: 1.125rem;
+    }
+}
